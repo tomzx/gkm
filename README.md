@@ -9,7 +9,10 @@ Tested on Windows 7, but should work on Linux and Mac OS X as well (untested).
 Node didn't have any global keyboard and mouse listener available at the time.
 
 ## Requirements
-GKM depends on [JNativeHook](https://code.google.com/p/jnativehook/), which runs on Java. Thus you will need to have a JVM available and more importantly, java availble on your PATH.
+GKM depends on [JNativeHook](https://github.com/kwhat/jnativehook), which runs on Java. Thus you will need to have a JVM available and more importantly, java availble on your PATH.
+
+In the `lib` folder, you will find `gkm.jar`, which source you can find at https://github.com/tomzx/gkm-java.
+You will also find `JNativeHook.jar`, which source you can find at https://github.com/kwhat/jnativehook.
 
 ## Getting started
 Install gkm via node.js package manager:
